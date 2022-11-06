@@ -109,3 +109,31 @@ a#scroll-btn:after {
     font-size: 12px;
   }
 }
+.toolton{
+	height: 180px;
+	width: 250px;
+	border:6px solid #FF005B;
+	position: relative;
+	margin: auto;
+	border-radius: 20px;
+	color: #ffffff;
+	transition: 0.5s;
+	background-color : transparent;
+  }
+.fa{
+	font-size: 50px;
+	position: absolute;
+	transform: translate(-50%,-70%);
+}
+.toolton>span{
+	font-size: 15px;
+	position: absolute;
+		transform: translate(-50%,150%);
+	font-family: "Poppins",sans-serif;
+	font-weight: 500;
+  white-space: nowrap;
+}
+.toolton:hover{
+	
+	background-color: #FF005B;
+}
